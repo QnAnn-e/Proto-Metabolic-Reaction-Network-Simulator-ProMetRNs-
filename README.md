@@ -1,4 +1,4 @@
-# Proto-Metabolic-Reaction-Network-Simulator-ProMetRNs-
+# Proto-Metabolic Reaction Network Simulator (ProMetRNs)
 
 Project title: Simulation of pre-biotic formation of metabolic networks with the appearance of heritable catalysts of random specificity
 
