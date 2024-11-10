@@ -64,8 +64,8 @@ Makes use of the following python modules:
 
 #### Running instructions
 1. pip install all of the above modules
-2. perform the data preprocessing on the [full_jcvi_rxn_list.csv](Data-files/full_jcvi_rxn_list.csv) by making use of [data_preprocessing.py](data_preprocessing.py)
-3. Add the output files from the data preprocessing, together with [updated smiles.csv](Data-files/updated_smiles.csv) to the same directory and run the [reverse simulation](Reverse-simulation/reverse_sim2.py) script
+2. perform the data preprocessing on the [full_jcvi_rxn_list.csv](Data_files/full_jcvi_rxn_list.csv) by making use of [data_preprocessing.py](data_preprocessing.py)
+3. Add the output files from the data preprocessing, together with [updated smiles.csv](Data_files/updated_smiles.csv) to the same directory and run the [reverse simulation](Reverse_simulation/reverse_sim2.py) script
 
 
 #### Expected output
