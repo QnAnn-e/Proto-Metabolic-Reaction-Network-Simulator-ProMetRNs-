@@ -18,12 +18,13 @@ The preprocessing script is not included in the main program to keep the script 
 As input we used the full_jcvi_rxn_list.csv file which was compiled from the supplementary materials from the Breuer _et al_. (2019) Essential metabolism of a minimal cell. 
 Format:
 
+```
 Reaction nr,Reaction equation
 
 S001,D-glucose 6-phosphate <==> D-fructose 6-phosphate
 
 S002,D-fructose 6-phosphate + ATP --> ADP + D-fructose 1,6-biphosphate + H+
-
+```
 
 #### Expected output
 Two files will be created: 
@@ -33,19 +34,22 @@ Two files will be created:
 The chemical dictionary contains all of the metabolites extracted from the metabolic reaction list provided and its assigned value (I had to assign values because when working with pandas dfs later everything got mixed up when string was involved).
 Format: 
 
+```
 D-GLUCOSE 6-PHOSPHATE: 1
 
 D-FRUCTOSE 6-PHOSPHATE: 2 
-
+```
 
 The reaction number file contains the metabolic reaction information extracted from the provided metabolic reaction list. As with the previous file, every reaction is assigned a number and all metabolites are represented using their metabolite number to avoid running into string handling [problems. 
 Format:
 
+```
 reactions,reactants,products
 
 1,[1],[2]
 
 2,"[2, 3]","[11, 4, 16]"
+```
 
 
 ### Part 1 - The reverse simulation
@@ -71,9 +75,10 @@ Makes use of the following python modules:
 #### Expected output
 
 The script should produce: 
-* a "systemfitness.csv" file that will contain the fitness values for all systems after every 5 iterations
-* a "full.svg" image file that contains the full JCVI chemical reaction network overview before any of the deletions started happening
-* a "reverse_sim_network.gml" file that contains a key and value list that describes the full reaction network.  
+* A "systemfitness.csv" file that will contain the fitness values for all systems after every 5 iterations
+* A "full.svg" image file that contains the full JCVI chemical reaction network overview before any of the deletions started happening
+* A "reverse_sim_network.gml" file that contains a key and value list that describes the full reaction network.  
+
 
 
 ### Part 2- The proto-metabolic reaction networks
@@ -95,9 +100,10 @@ This simulation is very computationally expensive and requires the use of a high
 
 The script will generate the following:
 1. 4 cythonized files - 2 for the more_cyhtonized.py file and 2 for the fastest_cython.py file
-2. a "fitness.csv" file containing the fitnesses for all systems over all iterations
-3. a "system.csv" file containing the system information of all systems
-4. an output, error and log file to inform if anything out of the ordinary happened during the run
+2. A "fitness.csv" file containing the fitnesses for all systems over all iterations
+3. A "system.csv" file containing the system information of all systems
+4. An output, error and log file to inform if anything out of the ordinary happened during the run
+
 
 ### Part 3- Visualizing the output files
 
@@ -107,10 +113,13 @@ The script will generate the following:
 ### Data sources 
 
 The data used to compile the [JCVI reaction list](Data%20files/full_jcvi_rxn_list.csv) was obtained from:
-Marian BreuerTyler M EarnestChuck MerrymanKim S WiseLijie SunMichaela R LynottClyde A HutchisonHamilton O SmithJohn D LapekDavid J GonzalezValérie de Crécy-LagardDrago HaasAndrew D HansonPiyush LabhsetwarJohn I GlassZaida Luthey-Schulten (2019) Essential metabolism for a minimal cell eLife 8:e36842. 
+Marian Breuer, Tyler M. Earnest, Chuck Merryman, Kim S. Wise, Lijie Sun, Michaela R. Lynott, Clyde A. Hutchison, Hamilton O. Smith, John D. Lapek, David J. Gonzalez, Valérie de Crécy-Lagard, Drago Haas, Andrew D. Hanson, Piyush Labhsetwar, John I. Glass, Zaida Luthey-Schulten (2019) Essential metabolism for a minimal cell eLife 8:e36842. 
+
 
 ### Environment
-The virtual environment is automatically setup when running the [simulation](Main%20simulation/simulation2.pbs) script. It makes use of the [requirements](HPC%20setup%20files/requirements.txt) file together with the "source sim2env/bin/activate" command. 
+The virtual environment is automatically setup when running the [simulation](Main%20simulation/simulation2.pbs) script. 
+It makes use of the [requirements](HPC%20setup%20files/requirements.txt) file together with the "source sim2env/bin/activate" command. 
+
 
 ### HPC configurations
 
@@ -133,5 +142,3 @@ Sample PBS directives:
 Whether you have questions, ideas, or just want to grab a coffe and chat about the Origin of Life, I’d love to hear from you! You can reach me at:
 
 Email: 26703173@sun.ac.za
-LinkedIn: [Anika Du Plessis](www.linkedin.com/in/anika-du-plessis-7aaa66263)
-
