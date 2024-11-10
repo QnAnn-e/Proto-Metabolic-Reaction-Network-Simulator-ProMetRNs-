@@ -70,32 +70,68 @@ Makes use of the following python modules:
 
 #### Expected output
 
-The script should produce 
+The script should produce: 
+* a "systemfitness.csv" file that will contain the fitness values for all systems after every 5 iterations
+* a "full.svg" image file that contains the full JCVI chemical reaction network overview before any of the deletions started happening
+* a "reverse_sim_network.gml" file that contains a key and value list that describes the full reaction network.  
 
 
 ### Part 2- The proto-metabolic reaction networks
 
 #### Dependencies
 
+All dependancies for this program can be found in the [requirements](HPC%20setup%20files/requirements.txt) file. 
+
 #### Running instructions
 
+This simulation is very computationally expensive and requires the use of a high perfomance computing (HPC) unit/cluster.
+
+1. Use the same "chem_dict.txt" and "rxn numbers.csv" files from the reverse simulation produced by the [data preprocessing](data_preprocessing.py) script
+2. Create a new directory and add the files in [HPC setup files](HPC%20setup%20files) and [Main simulation](Main%simulation)
+3. Change the PBS directives in the [simulation](Main%20simulation/simulation2.pbs) file to fit the capacity of the HPC you are using and then submit the script
+
+
 #### Expected output
+
+The script will generate the following:
+1. 4 cythonized files - 2 for the more_cyhtonized.py file and 2 for the fastest_cython.py file
+2. a "fitness.csv" file containing the fitnesses for all systems over all iterations
+3. a "system.csv" file containing the system information of all systems
+4. an output, error and log file to inform if anything out of the ordinary happened during the run
 
 ### Part 3- Visualizing the output files
 
 
-## Usage
-
 ## Data and dependencies
 
-### Data sources
+### Data sources 
+
+The data used to compile the [JCVI reaction list](Data%20files/full_jcvi_rxn_list.csv) was obtained from:
+Marian BreuerTyler M EarnestChuck MerrymanKim S WiseLijie SunMichaela R LynottClyde A HutchisonHamilton O SmithJohn D LapekDavid J GonzalezValérie de Crécy-LagardDrago HaasAndrew D HansonPiyush LabhsetwarJohn I GlassZaida Luthey-Schulten (2019) Essential metabolism for a minimal cell eLife 8:e36842. 
 
 ### Environment
-Requirements files
+The virtual environment is automatically setup when running the [simulation](Main%20simulation/simulation2.pbs) script. It makes use of the [requirements](HPC%20setup%20files/requirements.txt) file together with the "source sim2env/bin/activate" command. 
 
 ### HPC configurations
-My OBS directives and a sample script, I suppose?
+
+Sample PBS directives:
+```
+#!/bin/bash
+#PBS -N simulation
+#PBS -l select=1:ncpus=80:mem=80GB:vnode=n12.hpc
+#PBS -l walltime=160:00:00
+#PBS -o sim.out
+#PBS -e sim.err
+#PBS -m abe
+#PBS -M youremailaddress
+```
 
 ## Licence
 
-## Contact and Contributions
+## Contact
+
+Whether you have questions, ideas, or just want to grab a coffe and chat about the Origin of Life, I’d love to hear from you! You can reach me at:
+
+Email: 26703173@sun.ac.za
+LinkedIn: [Anika Du Plessis](www.linkedin.com/in/anika-du-plessis-7aaa66263)
+
