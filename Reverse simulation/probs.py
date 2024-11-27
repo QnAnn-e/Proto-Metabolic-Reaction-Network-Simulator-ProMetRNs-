@@ -1,33 +1,29 @@
 import random
 import math
 
-# Simulation parameters
-total_numbers = 100000
-desired_numbers = 338
-draw_size = 10
-target_desired = 101
+total_possible_reactions = 100000
+jcvi_reactions = 338
+amount = 25
+target_jcvi = 212 # reactions making up JCVI syn3A central, nucleotide and lipid metabolism
 
-def simulate_draws_to_target(total_numbers, desired_numbers, draw_size, target_desired):
-    # Track captured unique desired numbers
-    captured_desired = set()
+def simulate_draws_to_target(total_possible_reactions, jcvi_reactions, amount,  target_jcvi):
+    captured_jcvi = set()
     draws_count = 0
 
-    while len(captured_desired) < target_desired:
-        # Perform a draw of `draw_size` numbers
-        draw = random.sample(range(total_numbers), draw_size)
-        # Add desired numbers from this draw to the captured set
-        captured_desired.update(num for num in draw if num < desired_numbers)
-        # Increment the number of draws performed
+    while len(captured_jcvi) < target_jcvi:
+        draw = random.sample(range(total_possible_reactions), amount)
+        captured_jcvi.update(num for num in draw if num < jcvi_reactions)
         draws_count += 1
 
     return draws_count
 
-# Run the simulation multiple times for reliability
-simulations = 1000
-results = [simulate_draws_to_target(total_numbers, desired_numbers, draw_size, target_desired) for _ in range(simulations)]
-
-# Average number of draws needed
+simulations = 15000
+results = [simulate_draws_to_target(total_possible_reactions, jcvi_reactions, amount, target_jcvi) for _ in range(simulations)]
 average_draws = sum(results) / len(results)
 sets_of_10 = math.ceil(average_draws)
-
 print(sets_of_10)
+squared_diffs = [(x - average_draws) ** 2 for x in results]
+population_variance = sum(squared_diffs) / len(results)
+N = len(results)  # Number of observations
+standard_error = (population_variance / N) ** 0.5
+print(standard_error)
