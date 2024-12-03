@@ -140,6 +140,6 @@ MIT LICENSE
 
 ## Contact
 
-Whether you have questions, ideas, or just want to grab a coffe and chat about the Origin of Life, I’d love to hear from you! You can reach me at:
+Whether you have questions, ideas, or just want to grab a coffee and chat about the Origin of Life, I’d love to hear from you! You can reach me at:
 
 Email: 26703173@sun.ac.za
