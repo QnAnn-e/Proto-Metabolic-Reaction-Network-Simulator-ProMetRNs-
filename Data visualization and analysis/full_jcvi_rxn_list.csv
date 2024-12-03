@@ -1,0 +1,338 @@
+Reaction number,Reaction equation
+S001, D-glucose 6-phosphate <==> D-fructose 6-phosphate
+S002," D-fructose 6-phosphate + ATP --> ADP + D-fructose 1,6-bisphosphate + H+"
+S003," D-fructose 1,6-bisphosphate <==> dihydroxyacetone phosphate + Glyceraldehyde 3-phosphate"
+S004, dihydroxyacetone phosphate <==> Glyceraldehyde 3-phosphate
+S005, NAD+ + Phosphate + Glyceraldehyde 3-phosphate <==> NADH + H+ + 3-Phospho-D-glyceroyl phosphate
+S006, NADP+ + Glyceraldehyde 3-phosphate + H2O --> NADPH + (2) H+ + 3-Phospho-D-glycerate
+S007, ADP + 3-Phospho-D-glyceroyl phosphate <==> 3-phospho-D-glycerate + ATP
+S008, 3-phospho-D-glycerate <==> D-Glycerate 2-phosphate
+S009, D-Glycerate 2-phosphate <==> phosphoenolpyruvate + H2O
+S010, ADP + phosphoenolpyruvate + H+ --> ATP + pyruvate
+S011, N-acetyl-D-mannosamine + ATP --> ADP + N-acetyl-D-mannosamine 6-phosphate + H+
+S012, N-acetyl-D-mannosamine 6-phosphate <==> N-acetyl-D-glucosamine 6-phosphate
+S013, N-acetyl-D-glucosamine 6-phosphate + H2O --> D-glucosamine 6-phosphate + acetate
+S014, D-glucosamine 6-phosphate + H2O <==> D-fructose 6-phosphate + NH3 + H+
+S015, D-mannose 6-phosphate <==> D-fructose 6-phosphate
+S016, NADH + H+ + pyruvate <==> L-lactate + NAD+
+S017, lipoyl-PdhC + H+ + pyruvate --> S-acetyldihydrolipoyl-PdhC + CO2
+S018, S-acetyldihydrolipoyl-PdhC + CoA --> acetyl-CoA + dihydrolipoyl-PdhC
+S019, acetaldehyde + lipoyl-PdhC + CoA --> acetyl-CoA + dihydrolipoyl-PdhC
+S020, dihydrolipoyl-PdhC + NAD+ --> lipoyl-PdhC + NADH + H+
+S021, dihydrolipoyl-PdhC + NAD+ --> lipoyl-PdhC + NADH + H+
+S022, dihydrolipoyl-PdhC + NAD+ --> lipoyl-PdhC + NADH + H+
+S023, dihydrolipoyl-PdhC + NAD+ --> lipoyl-PdhC + NADH + H+
+S024, dihydrolipoyl-PdhC + NAD+ --> lipoyl-PdhC + NADH + H+
+S025, dihydrolipoyl-PdhC + NAD+ --> lipoyl-PdhC + NADH + H+
+S026, dihydrolipoyl-PdhC + NAD+ --> lipoyl-PdhC + NADH + H+
+S027, D-xylulose 5-phosphate <==> D-ribulose 5-phosphate
+S028, D-ribulose 5-phosphate <==> D-ribose 5-phosphate
+S029, D-ribose 5-phosphate + ATP <==> AMP + 5-phospho-alpha-D-ribose 1-diphosphate + H+
+S030, D-ribose 1-phosphate <==> D-ribose 5-phosphate
+S031, 2-deoxy-D-ribose 1-phosphate <==> 2-deoxy-D-ribose 5-phosphate
+S032, 2-deoxy-D-ribose 5-phosphate <==> acetaldehyde + Glyceraldehyde 3-phosphate
+S033, adenine + 5-phospho-alpha-D-ribose 1-diphosphate --> AMP + Diphosphate
+S034, adenosine + Phosphate <==> D-ribose 1-phosphate + adenine
+S035, AMP + ATP <==> (2) ADP
+S036, ADP + reduced thioredoxin --> dADP + H2O + oxidized thioredoxin
+S037, oxidized thioredoxin + H+ + NADPH --> NADP+ + reduced thioredoxin
+S038, H2O + Diphosphate --> (2) Phosphate + H+
+S039, deoxyadenosine + Phosphate <==> 2-deoxy-D-ribose 1-phosphate + adenine
+S040, deoxyadenosine + ATP --> ADP + H+ + dAMP
+S041, dAMP + ATP <==> dADP + ADP
+S042, phosphoenolpyruvate + dADP + H+ --> dATP + pyruvate
+S043, dADP + 3-Phospho-D-glyceroyl phosphate <==> 3-phospho-D-glycerate + dATP
+S044, 5-phospho-alpha-D-ribose 1-diphosphate + guanine --> GMP + Diphosphate
+S045, guanosine + Phosphate  <==> D-ribose 1-phosphate + guanine
+S046, GMP + ATP <==> ADP + GDP
+S047, reduced thioredoxin + GDP --> H2O + oxidized thioredoxin + dGDP
+S048, phosphoenolpyruvate + H+ + GDP --> GTP + pyruvate
+S049, GDP + 3-Phospho-D-glyceroyl phosphate <==> GTP + 3-phospho-D-glycerate
+S050, deoxyguanosine + Phosphate <==> 2-deoxy-D-ribose 1-phosphate + guanine
+S051, deoxyguanosine + ATP --> ADP + H+ + dGMP
+S052, ATP + dGMP <==> ADP + dGDP
+S053, phosphoenolpyruvate + dGDP + H+ --> dGTP + pyruvate
+S054, dGDP + 3-Phospho-D-glyceroyl phosphate <==> 3-phospho-D-glycerate + dGTP
+S055, uracil + 5-phospho-alpha-D-ribose 1-diphosphate --> UMP + Diphosphate
+S056, UMP + ATP <==> ADP + UDP
+S057, phosphoenolpyruvate + H+ + UDP --> UTP + pyruvate
+S058, reduced thioredoxin + UDP --> H2O + oxidized thioredoxin + dUDP
+S059, CMP + ATP <==> ADP + CDP
+S060, phosphoenolpyruvate + CDP + H+ --> CTP + pyruvate
+S061, CDP + reduced thioredoxin --> H2O + oxidized thioredoxin + dCDP
+S062, deoxycytidine + ATP --> ADP + dCMP + H+
+S063, dCMP + ATP <==> ADP + dCDP
+S064, phosphoenolpyruvate + dCDP + H+ --> dCTP + pyruvate
+S065, deoxyuridine + ATP --> ADP + dUMP + H+
+S066, thymidine + ATP --> ADP + dTMP + H+
+S067, dTMP + ATP <==> ADP + dTDP
+S068, phosphoenolpyruvate + dTDP + H+ --> dTTP + pyruvate
+S069, phosphoenolpyruvate + dUDP + H+ --> dUTP + pyruvate
+S070, ATP + UTP + L-glutamine + H2O --> ADP + CTP + L-glutamate + Phosphate + (2) H+
+S071, ATP + dUMP + L-glutamine + H2O --> ADP + dCMP + L-glutamate + Phosphate + (2) H+
+S072, dCMP + H2O --> NH3 + dUMP
+S073, dUTP + H2O --> dUMP + diphosphate + H+
+S074, dCTP + H2O --> dCMP + diphosphate + H+
+S075, dCTP + H2O --> dCDP + phosphate + H+
+S076, dCDP + H2O --> dCMP + phosphate + H+
+S077, CTP + H2O --> CMP + diphosphate + H+
+S078, dTMP + H2O --> thymidine + phosphate
+S079, dUMP + H2O --> deoxyuridine + phosphate
+S080, dGMP + H2O --> deoxyguanosine + phosphate
+S081, dAMP + H2O --> deoxyadenosine + phosphate
+S082, GMP + H2O --> guanosine + phosphate
+S083, glycerol + ATP --> Glycerol 3-phosphate + ADP + H+
+S084," apoprotein (acyl carrier protein) + CoA --> adenosine 3',5'-bisphosphate + acyl carrier protein + H+"
+S085," adenosine 3',5'-bisphosphate + H2O --> AMP + Phosphate"
+S086, fatty acid + ATP <==> acyl phosphate + ADP
+S087, acyl phosphate + acyl carrier protein <==> ACP-R + phosphate
+S088, acyl phosphate + Glycerol 3-phosphate --> 1-acyl-glycerol 3-phosphate + phosphate
+S089, ACP-R + 1-acyl-glycerol 3-phosphate --> phosphatidic acid + acyl carrier protein
+S090, phosphatidic acid + CTP + H+ --> CDP-diacylglycerol + Diphosphate
+S091, CDP-diacylglycerol + Glycerol 3-phosphate --> CMP + phosphatidylglycerol 3-phosphate + H+
+S092, H2O + phosphatidylglycerol 3-phosphate --> Phosphate + phosphatidylglycerol
+S093, (2) phosphatidylglycerol --> cardiolipin + glycerol
+S094," H2O + phosphatidic acid --> 1,2-diacylglycerol + Phosphate"
+S095, D-glucose 6-phosphate <==> D-glucose 1-phosphate
+S096, D-glucose 1-phosphate + UTP + H+ <==> UDP-glucose + Diphosphate
+S097, UDP-glucose <==> UDP-galactose
+S098, UDP-galactose <==> UDP-galactofuranose
+S099," 1,2-diacylglycerol + UDP-galactofuranose --> Gal-DAG + H+ + UDP"
+S100, (88) UDP-galactofuranose --> UDP-galactan + (87) UDP + (87) H+
+S101," UDP-galactan + 1,2-diacylglycerol --> lipogalactan + H+ + UDP"
+S102, Tetra-L-arginine + (3) H2O --> (4) L-arginine
+S103, Tetra-L-aspartate + (3) H2O --> (4) L-aspartate
+S104, Tetra-L-glutamate + (3) H2O --> (4) L-glutamate
+S105, Tetra-glycine + (3) H2O --> (4) glycine
+S106, Tetra-L-isoleucine + (3) H2O --> (4) L-isoleucine
+S107, Tetra-L-alanine + (3) H2O --> (4) L-alanine
+S108, Tetra-L-asparagine + (3) H2O --> (4) L-asparagine
+S109, Tetra-L-leucine + (3) H2O --> (4) L-leucine
+S110, Tetra-L-glutamine + (3) H2O --> (4) L-glutamine
+S111, Tetra-L-histidine + (3) H2O --> (4) L-histidine
+S112, Tetra-L-lysine + (3) H2O --> (4) L-lysine
+S113, Tetra-L-proline + (3) H2O --> (4) L-proline
+S114, Tetra-L-phenylalanine + (3) H2O --> (4) L-phenylalanine
+S115, Tetra-L-threonine + (3) H2O --> (4) L-threonine
+S116, Tetra-L-tryptophan + (3) H2O --> (4) L-tryptophan
+S117, Tetra-L-tyrosine + (3) H2O --> (4) L-tyrosine
+S118, Tetra-L-valine + (3) H2O --> (4) L-valine
+S119, Tetra-L-serine + (3) H2O --> (4) L-serine
+S120, Tetra-L-methionine + (3) H2O --> (4) L-methionine
+S121, H2O + ATP + L-methionine --> Phosphate + Diphosphate + S-adenosyl-L-methionine
+S122, H2O + S-adenosyl-L-homocysteine --> L-homocysteine + adenosine
+S123, L-glutamine + H2O + L-glutamyl-tRNA(Gln) + ATP --> L-glutaminyl-tRNA(Gln) + ADP + L-glutamate + Phosphate + H+
+S124, H2O + L-glutamyl-tRNA(Gln) + L-asparagine + ATP --> L-glutaminyl-tRNA(Gln) + ADP + Phosphate + H+ + L-aspartate
+S125, tRNA(Met) + L-methionine + ATP --> L-methionyl-tRNA(Met) + AMP + Diphosphate
+S126, tRNA(Ile) + L-isoleucine + ATP --> L-isoleucyl-tRNA(Ile) + AMP + Diphosphate
+S127, tRNA(Val) + L-valine + ATP --> L-valyl-tRNA(Val) + AMP + Diphosphate
+S128, tRNA(Leu) + L-leucine + ATP --> AMP + L-leucyl-tRNA(Leu) + Diphosphate
+S129, tRNA(Cys) + ATP + L-cysteine --> AMP + Diphosphate + L-cysteinyl-tRNA(Cys)
+S130, tRNA(Glu) + L-glutamate + ATP --> L-glutamyl-tRNA(Glu) + AMP + Diphosphate
+S131, L-glutamate + ATP + tRNA(Gln) --> L-glutamyl-tRNA(Gln) + AMP + Diphosphate
+S132, L-arginine + tRNA(Arg) + ATP --> AMP + L-arginyl-tRNA(Arg) + Diphosphate
+S133, L-tyrosine + tRNA(Tyr) + ATP --> AMP + L-tyrosyl-tRNA(Tyr) + Diphosphate
+S134, tRNA(Trp) + L-tryptophan + ATP --> AMP + L-tryptophanyl-tRNA(Trp) + Diphosphate
+S135, tRNA(Ser) + L-serine + ATP --> L-seryl-tRNA(Ser) + AMP + Diphosphate
+S136, L-threonine + tRNA(Thr) + ATP --> AMP + L-threonyl-tRNA(Thr) + Diphosphate
+S137, tRNA(Pro) + ATP + L-proline --> L-prolyl-tRNA(Pro) + AMP + Diphosphate
+S138, tRNA(Asp) + L-aspartate + ATP --> AMP + L-aspartyl-tRNA(Asp) + Diphosphate
+S139, tRNA(Asn) + L-asparagine + ATP --> AMP + L-asparaginyl-tRNA(Asn) + Diphosphate
+S140, tRNA(Lys) + L-lysine + ATP --> AMP + Diphosphate + L-lysyl-tRNA(Lys)
+S141, L-histidine + ATP + tRNA(His) --> AMP + L-histidyl-tRNA(His) + Diphosphate
+S142, tRNA(Phe) + L-phenylalanine + ATP --> AMP + L-phenylalanyl-tRNA(Phe) + Diphosphate
+S143, L-alanine + tRNA(Ala) + ATP --> L-alanyl-tRNA(Ala) + AMP + Diphosphate
+S144, glycine + tRNA(Gly) + ATP --> glycyl-tRNA(Gly) + AMP + Diphosphate
+S145, nicotinate + 5-phospho-alpha-D-ribose 1-diphosphate + H+ --> nicotinate D-ribonucleotide + Diphosphate
+S146, nicotinate D-ribonucleotide + H+ + ATP --> deamino-NAD+ + Diphosphate
+S147, deamino-NAD+ + NH3 + ATP --> AMP + NAD+ + Diphosphate
+S148, NAD+ + ATP --> ADP + NADP+ + H+
+S149, NADH + ATP --> ADP + H+ + NADPH
+S150, riboflavin + ATP --> ADP + FMN + H+
+S151, FMN + H+ + ATP --> Diphosphate + FAD
+S152, 5-formyltetrahydrofolate + (2) L-glutamate + (2) ATP --> 5-formyltetrahydrofolate tri-L-glutamate + (2) ADP + (2) Phosphate + (2) H+
+S153," H2O + 5,10-methenyltetrahydrofolate tri-L-glutamate <==> 10-formyltetrahydrofolate tri-L-glutamate + H+"
+S154, L-methionyl-tRNA(Met) + 10-formyltetrahydrofolate tri-L-glutamate --> tetrahydrofolate tri-L-glutamate + N-formylmethionyl-tRNA(Met) + H+
+S155," tetrahydrofolate tri-L-glutamate + L-serine <==> glycine + H2O + 5,10-methylenetetrahydrofolate tri-L-glutamate"
+S156," NADP+ + 5,10-methylenetetrahydrofolate tri-L-glutamate <==> 5,10-methenyltetrahydrofolate tri-L-glutamate + NADPH"
+S157," ATP + 5-formyltetrahydrofolate tri-L-glutamate --> ADP + Phosphate + 5,10-methenyltetrahydrofolate tri-L-glutamate"
+S158," H2O + 5,10-methenyltetrahydrofolate tri-L-glutamate --> 5-formyltetrahydrofolate tri-L-glutamate + H+"
+S159, (24) L-valyl-tRNA(Val) + (23) L-aspartyl-tRNA(Asp) + (12) L-arginyl-tRNA(Arg) + N-formylmethionyl-tRNA(Met) + (896) ATP + (39) L-lysyl-tRNA(Lys) + (15) L-glutaminyl-tRNA(Gln) + (36) L-isoleucyl-tRNA(Ile) + (899) H2O + (23) L-seryl-tRNA(Ser) + (11) L-prolyl-tRNA(Pro) + (21) glycyl-tRNA(Gly) + (23) L-alanyl-tRNA(Ala) + (13) L-tyrosyl-tRNA(Tyr) + (22) L-threonyl-tRNA(Thr) + (27) L-asparaginyl-tRNA(Asn) + (7) L-methionyl-tRNA(Met) + (5) L-histidyl-tRNA(His) + (2) L-cysteinyl-tRNA(Cys) + (27) L-glutamyl-tRNA(Glu) + (3) L-tryptophanyl-tRNA(Trp) + (16) L-phenylalanyl-tRNA(Phe) + (36) L-leucyl-tRNA(Leu) --> (3) tRNA(Trp) + (11) tRNA(Pro) + (13) tRNA(Tyr) + (36) tRNA(Leu) + (8) tRNA(Met) + (12) tRNA(Arg) + (27) tRNA(Glu) + (2) tRNA(Cys) + (23) tRNA(Ala) + (5) tRNA(His) + (39) tRNA(Lys) + (23) tRNA(Asp) + (24) tRNA(Val) + (1282) H+ + (36) tRNA(Ile) + (23) tRNA(Ser) + (896) Phosphate + (15) tRNA(Gln) + (896) ADP + (16) tRNA(Phe) + (21) tRNA(Gly) + (27) tRNA(Asn) + protein + (22) tRNA(Thr) + formate + L-methionine
+S160, L-tyrosyl-tRNA(Tyr) + (4) L-valyl-tRNA(Val) + (8) L-aspartyl-tRNA(Asp) + (3) L-arginyl-tRNA(Arg) + N-formylmethionyl-tRNA(Met) + (169) ATP + (7) L-lysyl-tRNA(Lys) + (3) L-glutaminyl-tRNA(Gln) + (7) L-isoleucyl-tRNA(Ile) + (172) H2O + (6) L-seryl-tRNA(Ser) + (3) glycyl-tRNA(Gly) + (2) L-alanyl-tRNA(Ala) + (3) L-threonyl-tRNA(Thr) + (3) L-asparaginyl-tRNA(Asn) + (2) L-methionyl-tRNA(Met) + (6) L-glutamyl-tRNA(Glu) + L-phenylalanyl-tRNA(Phe) + (13) L-leucyl-tRNA(Leu) --> tRNA(Tyr) + (13) tRNA(Leu) + (3) tRNA(Met) + (3) tRNA(Arg) + (6) tRNA(Glu) + (2) tRNA(Ala) + (7) tRNA(Lys) + (8) tRNA(Asp) + (4) tRNA(Val) + (242) H+ + (7) tRNA(Ile) + (6) tRNA(Ser) + (169) Phosphate + (3) tRNA(Gln) + (169) ADP + tRNA(Phe) + (3) tRNA(Gly) + (3) tRNA(Asn) + (3) tRNA(Thr) + formate + L-methionine  + apoprotein (acyl carrier protein)
+S161, (43) L-valyl-tRNA(Val) + (22) L-aspartyl-tRNA(Asp) + (11) L-arginyl-tRNA(Arg) + N-formylmethionyl-tRNA(Met) + (1023) ATP + (35) L-lysyl-tRNA(Lys) + (12) L-glutaminyl-tRNA(Gln) + (36) L-isoleucyl-tRNA(Ile) + (1025) H2O + (30) L-seryl-tRNA(Ser) + (27) L-prolyl-tRNA(Pro) + (27) glycyl-tRNA(Gly) + (50) L-alanyl-tRNA(Ala) + (6) L-tyrosyl-tRNA(Tyr) + (32) L-threonyl-tRNA(Thr) + (20) L-asparaginyl-tRNA(Asn) + (13) L-methionyl-tRNA(Met) + (7) L-histidyl-tRNA(His) + L-cysteinyl-tRNA(Cys) + (26) L-glutamyl-tRNA(Glu) + L-tryptophanyl-tRNA(Trp) + (13) L-phenylalanyl-tRNA(Phe) + (28) L-leucyl-tRNA(Leu) --> tRNA(Trp) + (27) tRNA(Pro) + (6) tRNA(Tyr) + (28) tRNA(Leu) + (14) tRNA(Met) + (11) tRNA(Arg) + (26) tRNA(Glu) + tRNA(Cys) + (50) tRNA(Ala) + (7) tRNA(His) + (35) tRNA(Lys) + (22) tRNA(Asp) + (43) tRNA(Val) + (1464) H+ + (36) tRNA(Ile) + (30) tRNA(Ser) + (1023) Phosphate + (12) tRNA(Gln) + (1023) ADP + (13) tRNA(Phe) + (27) tRNA(Gly) + (20) tRNA(Asn) + (32) tRNA(Thr) + PdhC + formate
+S162, (2) L-valyl-tRNA(Val) + (9) L-aspartyl-tRNA(Asp) + (2) L-arginyl-tRNA(Arg) + N-formylmethionyl-tRNA(Met) + (387) ATP + (15) L-lysyl-tRNA(Lys) + (9) L-glutaminyl-tRNA(Gln) + (22) L-isoleucyl-tRNA(Ile) + (389) H2O + (9) L-seryl-tRNA(Ser) + L-prolyl-tRNA(Pro) + (3) glycyl-tRNA(Gly) + (4) L-alanyl-tRNA(Ala) + (10) L-tyrosyl-tRNA(Tyr) + (5) L-threonyl-tRNA(Thr) + (28) L-asparaginyl-tRNA(Asn) + L-histidyl-tRNA(His) + (2) L-cysteinyl-tRNA(Cys) + (13) L-glutamyl-tRNA(Glu) + (3) L-tryptophanyl-tRNA(Trp) + (12) L-phenylalanyl-tRNA(Phe) + (16) L-leucyl-tRNA(Leu) --> (3) tRNA(Trp) + tRNA(Pro) + (10) tRNA(Tyr) + (16) tRNA(Leu) + tRNA(Met) + (2) tRNA(Arg) + (13) tRNA(Glu) + (2) tRNA(Cys) + (4) tRNA(Ala) +  tRNA(His) + (15) tRNA(Lys) + (9) tRNA(Asp) + (2) tRNA(Val) + (554) H+ + (22) tRNA(Ile) + (9) tRNA(Ser) + (387) Phosphate + (9) tRNA(Gln) + (387) ADP + (12) tRNA(Phe) + (3) tRNA(Gly) + (28) tRNA(Asn) + (5) tRNA(Thr) + dUTPase + formate
+S163, (609) H2O + protein + (225) ATP --> (23) L-alanine + (13) L-tyrosine + (21) glycine + (3) L-tryptophan + (23) L-serine + (27) L-asparagine + (27) L-glutamate + (36) L-leucine + (225) H+ + (11) L-proline + (2) L-cysteine + (12) L-arginine + (39) L-lysine + (22) L-threonine + (16) L-phenylalanine + (225) Phosphate + (23) L-aspartate + (7) L-methionine + (225) ADP + (15) L-glutamine + (36) L-isoleucine + (24) L-valine + (5) L-histidine
+S164, (25) GTP + (28) UTP + (41) H2O + (20) CTP + (68) ATP --> (41) ADP + RNA + (41) Phosphate + (41) H+ + (100) Diphosphate
+S165, (100) H2O + RNA --> (25) GMP + (27) AMP + (20) CMP + (28) UMP + (100) H+
+S166, (12) dGTP + (137) H2O + (38) dTTP + (12) dCTP + (137) ATP + (38) dATP --> (137) ADP + DNA + (137) Phosphate + (137) H+ + (100) Diphosphate
+S167," (0.012567) protein + (0.001776) DNA + (0.000001) dUTPase + (0.001213) L-Histidine + (0.000210) 5,10-methenyltetrahydrofolate tri-L-glutamate + (0.005039) RNA + (0.022954) 1,2-diacylglycerol + (0.020970) cardiolipin + (0.840160) Potassium + (0.000068) DTTP + (0.006481) triacylglycerol + (0.002484) L-Arginine + (0.000105) NADP+ + (0.004288) lipogalactan + (0.000415) L-Tryptophan + (0.004658) Calcium + (0.055853) Chloride + (0.000210) thiamin diphosphate + (0.000057) DATP + (0.000210) pyridoxal phosphate + (0.000158) CoA + (0.006713) L-Serine + (0.020433) fatty acid + (0.057153) Sodium + (0.000210) FAD + (0.003283) L-Glutamine + (0.008533) L-Leucine + (0.001765) L-Methionine + (0.008658) L-Alanine + (0.002190) GTP + (0.039664) cholesterol + (0.005754) L-Glutamate + (0.039359) phosphatidylglycerol + (0.006002) L-Threonine + (0.003023) L-Proline + (0.002190) UTP + (0.007763) Magnesium + (0.002961) L-Phenylalanine + (0.008749) L-Isoleucine + (0.006266) L-Asparagine + (0.009022) Glycine + (0.000038) DCTP + (0.009073) L-Lysine + (0.002284) L-Tyrosine + (0.005442) L-Aspartate + (0.000621) L-Cysteine + (0.006344) spermine + (0.017299) Gal-DAG + (0.000022) DGTP + (0.001095) CTP + (0.039073) Phosphate + (0.007066) L-Valine + (0.000021) Acyl carrier protein + (25.003285) ATP + (25) H2O --> biomass + (25) ADP + (25) Phosphate + (25) H+"
+S168,(4) H+  + ADP  + Phosphate  <==> H2O  + (3) H+  + ATP 
+S169,D-glucose  + phosphoenolpyruvate  --> D-glucose 6-phosphate  + pyruvate 
+S170,D-glucosamine  + phosphoenolpyruvate  --> D-glucosamine 6-phosphate  + pyruvate 
+S171,D-mannose  + phosphoenolpyruvate  --> D-mannose 6-phosphate  + pyruvate 
+S172,N-acetyl-D-mannosamine  + H2O  + ATP  --> N-acetyl-D-mannosamine  + ADP  + Phosphate  + H+ 
+S173,L-lactate  + H+  <==> L-lactate  + H+ 
+S174,pyruvate  + H+  <==> pyruvate  + H+ 
+S175,H+  + acetate  <==> H+  + acetate 
+S176,glycerol  <==> glycerol  
+S177,fatty acid  <==> fatty acid 
+S178,cholesterol  <==> cholesterol 
+S179,triacylglycerol  <==> triacylglycerol 
+S180,acetaldehyde  <==> acetaldehyde 
+S181,formate  <==> formate 
+S182,riboflavin  + H2O  + ATP  --> riboflavin  + ADP  + Phosphate  + H+ 
+S183,pyridoxal phosphate  + H2O  + ATP  --> pyridoxal phosphate  + ADP  + Phosphate  + H+ 
+S184,5-formyltetrahydrofolate  + H2O  + ATP  --> 5-formyltetrahydrofolate  + ADP  + Phosphate  + H+ 
+S185,nicotinate  + H2O  + ATP  --> nicotinate  + ADP  + Phosphate  + H+ 
+S186,CoA  + H2O  + ATP  --> CoA  + ADP  + Phosphate  + H+ 
+S187,thiamin diphosphate  + H2O  + ATP  --> ADP  + Phosphate  + H+  + thiamin diphosphate 
+S188,spermine  + H2O  + ATP  --> ADP  + Phosphate  + H+  + spermine 
+S189,lipoyllysine  + PdhC  + H2O  + ATP  --> lipoyl-PdhC  + L-lysine  + ADP  + Phosphate  + H+ 
+S190,cytidine  + H2O  + ATP  --> cytidine  + ADP  + Phosphate  + H+ 
+S191,deoxycytidine  + H2O  + ATP  --> deoxycytidine  + ADP  + Phosphate  + H+ 
+S192,uridine  + H2O  + ATP  --> uridine  + ADP  + Phosphate  + H+ 
+S193,deoxyuridine  + H2O  + ATP  --> deoxyuridine  + ADP  + Phosphate  + H+ 
+S194,thymidine  + H2O  + ATP  --> thymidine  + ADP  + Phosphate  + H+ 
+S195,adenosine  + H2O  + ATP  --> adenosine  + ADP  + Phosphate  + H+ 
+S196,deoxyadenosine  + H2O  + ATP  --> deoxyadenosine  + ADP  + Phosphate  + H+ 
+S197,guanosine  + H2O  + ATP  --> guanosine  + ADP  + Phosphate  + H+ 
+S198,deoxyguanosine  + H2O  + ATP  --> deoxyguanosine  + ADP  + Phosphate  + H+ 
+S199,uracil  + H+  --> uracil  + H+ 
+S200,guanine  + H+  --> guanine  + H+ 
+S201,adenine  + H+  --> adenine  + H+ 
+S202,Sodium  --> Sodium 
+S203,Potassium  + Sodium  + H2O  + ATP  --> Potassium  + Sodium  + ADP  + Phosphate  + H+ 
+S204,Sodium  + H+  --> Sodium  + H+ 
+S205,Magnesium  + H2O  + ATP  --> Magnesium  + ADP  + Phosphate  + H+ 
+S206,Calcium  + H2O  + ATP  --> Calcium  + ADP  + Phosphate  + H+ 
+S207,Chloride  <==> Chloride 
+S208,H+   -->  H+ 
+S209,Phosphate  + H2O  + ATP  --> ADP  + (2) Phosphate  + H+ 
+S210,Tetra-L-arginine  + ATP  + H2O  --> Tetra-L-arginine  + ADP  + Phosphate  + H+ 
+S211,Tetra-L-aspartate  + ATP  + H2O  --> Tetra-L-aspartate  + ADP  + Phosphate  + H+ 
+S212,Tetra-L-glutamate  + ATP  + H2O  --> Tetra-L-glutamate  + ADP  + Phosphate  + H+ 
+S213,Tetra-glycine  + ATP  + H2O  --> Tetra-glycine  + ADP  + Phosphate  + H+ 
+S214,Tetra-L-isoleucine  + ATP  + H2O  --> Tetra-L-isoleucine  + ADP  + Phosphate  + H+ 
+S215,Tetra-L-alanine  + ATP  + H2O  --> Tetra-L-alanine  + ADP  + Phosphate  + H+ 
+S216,Tetra-L-asparagine  + ATP  + H2O  --> Tetra-L-asparagine  + ADP  + Phosphate  + H+ 
+S217,Tetra-L-leucine  + ATP  + H2O  --> Tetra-L-leucine  + ADP  + Phosphate  + H+ 
+S218,Tetra-L-glutamine  + ATP  + H2O  --> Tetra-L-glutamine  + ADP  + Phosphate  + H+ 
+S219,Tetra-L-histidine  + ATP  + H2O  --> Tetra-L-histidine  + ADP  + Phosphate  + H+ 
+S220,Tetra-L-lysine  + ATP  + H2O  --> Tetra-L-lysine  + ADP  + Phosphate  + H+ 
+S221,Tetra-L-proline  + ATP  + H2O  --> Tetra-L-proline  + ADP  + Phosphate  + H+ 
+S222,Tetra-L-phenylalanine  + ATP  + H2O  --> Tetra-L-phenylalanine  + ADP  + Phosphate  + H+ 
+S223,Tetra-L-threonine  + ATP  + H2O  --> Tetra-L-threonine  + ADP  + Phosphate  + H+ 
+S224,Tetra-L-tryptophan  + ATP  + H2O  --> Tetra-L-tryptophan  + ADP  + Phosphate  + H+ 
+S225,Tetra-L-tyrosine  + ATP  + H2O  --> Tetra-L-tyrosine  + ADP  + Phosphate  + H+ 
+S226,Tetra-L-valine  + ATP  + H2O  --> Tetra-L-valine  + ADP  + Phosphate  + H+ 
+S227,Tetra-L-serine  + ATP  + H2O  --> Tetra-L-serine  + ADP  + Phosphate  + H+ 
+S228,Tetra-L-methionine  + ATP  + H2O  --> Tetra-L-methionine  + ADP  + Phosphate  + H+ 
+S229,L-arginine  + H+  --> L-arginine  + H+ 
+S230,L-aspartate  + (2) H+  --> L-aspartate  + (2) H+ 
+S231,L-cysteine  + H+  --> L-cysteine  + H+ 
+S232,L-glutamate  + (2) H+  --> L-glutamate  + (2) H+ 
+S233,glycine  + H+  --> glycine  + H+ 
+S234,L-isoleucine  + H+  --> L-isoleucine  + H+ 
+S235,L-alanine  + H+  --> L-alanine  + H+ 
+S236,L-asparagine  + H+  --> L-asparagine  + H+ 
+S237,L-leucine  + H+  --> L-leucine  + H+ 
+S238,L-glutamine  + H+  --> L-glutamine  + H+ 
+S239,L-histidine  + H+  --> L-histidine  + H+ 
+S240,L-lysine  + H+  --> L-lysine  + H+ 
+S241,L-proline  + H+  --> L-proline  + H+ 
+S242,L-phenylalanine  + H+  --> L-phenylalanine  + H+ 
+S243,L-threonine  + H+  --> L-threonine  + H+ 
+S244,L-tryptophan  + H+  --> L-tryptophan  + H+ 
+S245,L-tyrosine  + H+  --> L-tyrosine  + H+ 
+S246,L-valine  + H+  --> L-valine  + H+ 
+S247,L-serine  + H+  --> L-serine  + H+ 
+S248,L-methionine  + H+  --> L-methionine  + H+ 
+S249,O2  <==> O2 
+S250,CO2  <==> CO2 
+S251,H2O  <==> H2O 
+S252,NH3  <==> NH3 
+S253,L-homocysteine  --> L-homocysteine 
+S254, biomass -->biomass
+S255, L-lactate <==>  L-lactate
+S256, pyruvate <==> pyruvate
+S257, acetate <==> acetate
+S258, adenine <==>  adenine
+S259, CO2 <==> CO2
+S260, Tetra-L-arginine  <==> Tetra-L-arginine
+S261, Tetra-L-aspartate  <==> Tetra-L-aspartate
+S262, Tetra-L-glutamate  <==> Tetra-L-glutamate
+S263, Tetra-glycine  <==> Tetra-glycine
+S264, Tetra-L-isoleucine  <==> Tetra-L-isoleucine
+S265, Tetra-L-alanine  <==> Tetra-L-alanine
+S266, Tetra-L-asparagine  <==> Tetra-L-asparagine
+S267, Tetra-L-leucine  <==> Tetra-L-leucine
+S268, Tetra-L-glutamine  <==> Tetra-L-glutamine
+S269, Tetra-L-histidine  <==>Tetra-L-histidine
+S270, Tetra-L-lysine  <==> Tetra-L-lysine
+S271, Tetra-L-proline  <==> Tetra-L-proline
+S272, Tetra-L-phenylalanine  <==> Tetra-L-phenylalanine
+S273, Tetra-L-threonine  <==>Tetra-L-threonine
+S274, Tetra-L-tryptophan  <==>Tetra-L-threonine
+S275, Tetra-L-tyrosine  <==>Tetra-L-tyrosine
+S276, Tetra-L-valine  <==> Tetra-L-valine
+S277, Tetra-L-serine  <==> Tetra-L-serine
+S278, Tetra-L-methionine  <==>Tetra-L-methionine
+S279, glycine <==>glycine
+S280, L-alanine <==>L-alanine
+S281, L-arginine <==>L-arginine
+S282, L-asparagine <==>L-asparagine
+S283, L-aspartate <==>L-aspartate
+S284, L-cysteine <==>L-cysteine
+S285, L-glutamate <==>L-glutamate
+S286, L-glutamine <==>L-glutamine
+S287, L-histidine <==>L-histidine
+S288, L-homocysteine <==> L-homocysteine
+S289, L-isoleucine <==> L-isoleucine
+S290, L-leucine <==>L-leucine
+S291, L-lysine <==>L-lysine
+S292, L-methionine <==>L-methionine
+S293, L-phenylalanine <==>L-phenylalanine
+S294, L-proline <==>L-proline
+S295, L-serine <==>L-serine
+S296, L-threonine <==>L-threonine
+S297, L-tryptophan <==>L-tryptophan
+S298, L-tyrosine <==>L-tyrosine
+S299, L-valine <==>L-valine
+S300, NH3 <==>NH3
+S301, cytidine <==>cytidine
+S302, deoxycytidine <==>deoxycytidine
+S303, fatty acid <==>fatty acid
+S304, 5-formyltetrahydrofolate <==>5-formyltetrahydrofolate
+S305, D-glucose <==>D-glucose
+S306, D-glucosamine <==>D-glucosamine
+S307, D-mannose <==>D-mannose
+S308, N-acetyl-D-mannosamine <==>N-acetyl-D-mannosamine
+S309, glycerol <==>glycerol
+S310, guanine <==>guanine
+S311, H+ <==> H+
+S312, nicotinate <==>nicotinate
+S313, Phosphate <==>Phosphate
+S314, riboflavin <==>riboflavin
+S315, uracil <==>uracil
+S316, H2O <==>H2O
+S317, uridine <==>uridine
+S318, deoxyuridine <==>deoxyuridine
+S319, thymidine <==>thymidine
+S320, adenosine <==>adenosine
+S321, deoxyadenosine <==>deoxyadenosine
+S322, guanosine <==>guanosine
+S323, deoxyguanosine <==>deoxyguanosine
+S324, CoA <==>CoA
+S325, pyridoxal phosphate <==>pyridoxal phosphate
+S326, thiamin diphosphate <==>thiamin diphosphate
+S327, cholesterol <==> cholesterol
+S328, triacylglycerol <==>triacylglycerol
+S329, acetaldehyde <==>acetaldehyde
+S330, Sodium <==>Sodium
+S331, Potassium <==>Potassium
+S332, Magnesium <==>Magnesium
+S333, Calcium <==>Calcium
+S334, Chloride <==>Chloride
+S335, spermine <==> spermine
+S336, formate <==>formate
+S337, lipoyllysine <==>lipoyllysine
