@@ -1,0 +1,30 @@
+#!/bin/bash
+#PBS -N fitness
+#PBS -l select=1:ncpus=10:mem=10GB:vnode=n12.hpc
+#PBS -l walltime=10:00:00
+#PBS -q bix
+#PBS -o sim.out
+#PBS -e sim.err
+#PBS -m abe
+#PBS -M 26703173@sun.ac.za
+
+
+cd $PBS_O_WORKDIR
+
+echo "Job started on `date`"
+
+module load python/3.12.0
+
+python3 -m venv simenv
+
+source simenv/bin/activate
+
+pip install --upgrade pip
+
+pip install -r requirements.txt
+
+python fit_data_an.py
+
+deactivate
+
+echo "Job ended on `date`"
