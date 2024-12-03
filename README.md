@@ -136,6 +136,7 @@ Sample PBS directives:
 ```
 
 ## Licence
+MIT LICENSE
 
 ## Contact
 
